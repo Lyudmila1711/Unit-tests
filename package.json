@@ -1,0 +1,26 @@
+{
+  "name": "unit-tests-jest",
+  "version": "1.0.0",
+  "description": "unit tests for programming calculates",
+  "main": "script.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Lyudmila1711/Unit-tests.git"
+  },
+  "keywords": [
+    "jest",
+    "js"
+  ],
+  "author": "Liudmyla Nikulyk <lyudka.r@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Lyudmila1711/Unit-tests/issues"
+  },
+  "homepage": "https://github.com/Lyudmila1711/Unit-tests#readme",
+  "devDependencies": {
+    "jest": "^27.4.7"
+  }
+}
