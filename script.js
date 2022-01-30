@@ -1,9 +1,11 @@
-
+//task 86 b)
 const sumNatural = (number) => {
     let result = number.toString().split('').map(Number).reduce((a, b) => a + b, 0)
     return result
 }
 
+
+//task 226
 const commonMultiple = (m, n) => {
     let resm = []
     let resn = []
@@ -25,11 +27,9 @@ const commonMultiple = (m, n) => {
                 resm.push(i)
             }
     }
-   
+
     }return result = resn.filter(item => resm.includes(item))
 
 }
-
-
 
 module.exports = {sumNatural, commonMultiple}

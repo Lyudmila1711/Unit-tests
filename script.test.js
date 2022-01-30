@@ -6,6 +6,7 @@ let number = 1234
 let m = 10
 let n = 20
 
+//tests for task 86 b)
 describe('sumNatural function', () => {
 
     test('the entered data should be number', () => {
@@ -18,6 +19,8 @@ describe('sumNatural function', () => {
     })
 })
 
+
+//tests for task 226
 describe('commonMultiple function', () => {
 
     test('the result should be truth', () => {
